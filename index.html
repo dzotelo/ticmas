@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Curriculum Vitae - Jhon Cusak</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script>
+        function fn_ocultar() {            
+        document.getElementById("portfolio").style.display = "none";
+        document.getElementById("ocultar").style.display = "none";
+        document.getElementById("mostrar").style.display = "";
+         }
+
+         function fn_mostrar() {            
+        document.getElementById("portfolio").style.display = "";
+        document.getElementById("mostrar").style.display = "none";
+        document.getElementById("ocultar").style.display = "";
+         }
+        </script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="text-uppercase text-center text-primary">Curriculum Vitae</h1>
+            <h2 class="text-uppercase text-center text-primary">John Travolta</h2>
+        </div>
+    </header>
+    <div class="row" style="border-bottom: solid;border-color: black;"></div>
+<div class="container"    >
+    <div class="row">
+        <div class="col-md-6">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/John_Travolta_Cannes_2018.jpg/220px-John_Travolta_Cannes_2018.jpg">
+        </div>
+        <div class="col-md-6">
+            <h3>
+                Nombre:
+            </h3>
+                <p>Jhon Josep Travolta</p>
+            <h3>
+                Lugar de Nacimiento:
+            </h3>
+                <a href="https://es.wikipedia.org/wiki/Englewood_(Nueva_Jersey)">Englewood - Nueva Jersey</a>
+            <h3>
+                Fecha de Nacimiento:
+            </h3>
+                <p>18 de Febrero 1954</p>
+            <h3>
+                Habilidades:
+            </h3>
+                <p>	Actor, cantante, productor de cine, escritor, bailarín, músico, actor de televisión, actor de cine, actor de teatro y actor de voz.</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+</br>
+<section id="about" class="text-white bg-primary mb-0">
+    <div class="container">
+        <h2 class="text-uppercase text-center text-white">Infancia</h2>
+        <hr class="star-light mb-5" />
+        <div class="row">
+            <div class="col-lg-4 ms-auto">
+                <p class="lead">John Joseph Travolta nació el 18 de febrero de 1954, cuando la Guerra Fría estaba en pleno apogeo. 
+                    Es el menor de los seis hijos de Salvatore y Helen Travolta. Su padre es de ascendencia italiana (sus abuelos eran originarios de Palermo) y 
+                    su madre es de ascendencia irlandesa. Vivió, con su familia, en Englewood (Nueva Jersey) y se crio en un ambiente muy artístico e histriónico 
+                    en más de un sentido: sus cinco hermanos mayores compartían el mismo gusto por la actuación que él.</p>
+            </div>
+            <div class="col-lg-4 me-auto">
+                <p class="lead">Desde muy pequeño, el menor de los Travolta desarrolló la capacidad de imitación y su padre construyó una tarima de teatro –con accesorios incluidos, 
+                    tales como un telón con sistema de cuerdas– para que los seis hermanos pudieran realizar representaciones para el resto de la familia.</p>
+            </div>
+        </div>
+        <div class="text-center mt-4"><a class="btn btn-outline-light btn-xl" role="button" href="https://es.wikipedia.org/wiki/John_Travolta#Filmograf%C3%ADa"><i class="fa fa-download me-2"></i><span>Filmografía</span></a></div>
+    </div>
+</section>
+</div>
+<div class="container">
+<p>Presiona el botón "Esconder" para ocultar las imágenes:</p>
+<button id = "ocultar" onclick="fn_ocultar()">Esconder Imágenes</button>
+<button id = "mostrar"  onclick="fn_mostrar()" style="display: none;">Mostrar Imágenes</button>
+</div>
+<section id="portfolio" class="portfolio">
+</br>
+    <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Imágenes</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/John_Travolta.jpg/452px-John_Travolta.jpg" height="300px" />
+            </div>                
+            <div class="col-md-6 col-lg-4">
+                <img  src="https://upload.wikimedia.org/wikipedia/commons/2/22/Welcome_Back_Kotter_cast_1975_%28cropped%29.JPG" height="300px" />
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/John_T_color_01.jpg" height="300px" />
+            </div>            
+        </div>
+    </div>
+</section>
+</br>
+</body>
+</html>
